@@ -49,3 +49,22 @@ function problema3(){
 
     document.querySelector('#p3-output').textContent = p3_res;
 }
+
+function problema1(){
+    var p1_input = document.getElementById("p1-input").value;
+    var separar_palabras = p1_input.split(" ");
+    var pr='';
+
+    if(p1_input == ""){
+        alert('El campo esta vacio')
+    }
+    if(p1_input != ""){
+        p1_input.forEach(function(palabra, i){
+            var palabras_array =[];
+            palabras_array.push(separar_palabras);
+        });
+
+        pr = ('La lista invertida es = '+palabras_array.reverse()+ '\n');
+    }
+    document.querySelector('#problema-output').textContent = pr;
+}
