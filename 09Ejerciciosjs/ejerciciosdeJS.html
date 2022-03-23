@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de JS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+         <!--Problema 1-->
+        <div class="problema-container">
+            <h2>Problema 1</h2>
+            <h3>1) Suponga que un individuo desea invertir su capital en un banco
+                y desea saber cuanto dinero ganara despues de un mes si el banco paga a 
+                razon de 2% mensual
+            </h3>
+            <div class="problema-content">
+                <input type="number"class="problema-input" id="capital" placeholder="Ingrese su inversion">
+                <br>
+                <button type="button" class="problema-button" 
+                style="margin-top: 1rem;" onclick="p1()">Calcular interes y saldo del mes</button>
+                <pre class="problema-output" id="p1">Esperando datos</pre>
+            </div>
+        </div>
+        <br>
+        <br>
+         <!--Problema 2-->
+         <div class="problema-container">
+            <h2>Problema 2</h2> 
+            <h3>Un vendedor recibe un sueldo base mas un 10% extra por 
+                 comision de sus ventas, el vendedor desea saber cuanto dinero
+                 obtendra por concepto de comisiones por las 3 ventas que
+                 realiza en el mes y el total que recibira en el mes tomando
+                 en cuenta su sueldo bas y comisiones
+            </h3>
+            <input type="number" class="problema-input" id="sueldo" placeholder="Ingresa tu sueldo">sueldo
+            <br>
+            <input type="number" class="problema-input" id="v1" placeholder="Ingrese su venta">Venta 1
+            <br>
+            <input type="number" class="problema-input" id="v2" placeholder="Ingrese su venta">Venta 2
+            <br>
+            <input type="number" class="problema-input" id="v3" placeholder="Ingrese su venta">Venta 3
+            <br>
+            <button type="button" class="problema-button"
+            style="margin-top: 1rem;" onclick="p2()">Calcular comisiones</button>
+            <pre class="problema-output" id="p2">Esperando datos</pre>
+        </div>
+        <br>
+        <br>
+         <!--Problema 3-->
+         <div class="problema-container">
+             <h2>Problema 3</h2>
+             <h3>Una tienda ofrece un descuento del 15% sobre el total de
+                 la compra y un cliente desea saber cuanto debera pagar
+                 finalmente por su compra
+             </h3>
+             <input type="number" class="problema-input" id="compra" placeholder="Ingresa el total de tu compra">
+             <br>
+             <button type="button" class="problema-button"
+             style="margin-top: 1rem;" onclick="p3()">Calcular descuemto y precio final</button>
+             <pre class="problema-output" id="p3">Esperando datos</pre>
+        </div>
+        <br>
+        <br>
+         <!--Problema 4-->
+         <div class="problema-container">
+            <h2>Problema 4</h2>
+            <h3>Un alumno desea saber cual sera la calificacion final en la 
+                materia de Algoritmos.Dicha calificacion se compone de los siguientes porcentajes:
+                <h4>55% del promedio de sus tres calificaciones parciales.</h4>
+                <h4>30% de laa calificacion del examen final.</h4>
+                <h4>15%de la calificacion de un trabajo final</h4>
+            </h3>
+            <input type="number" class="problema-input" id="1er" placeholder="Ingresa tu calificacion">1er parcial
+            <br>
+            <input type="number" class="problema-input" id="2do" placeholder="Ingresa tu calificacion">2do parcial
+            <br>
+            <input type="number" class="problema-input" id="3er" placeholder="Ingresa tu calificacion">3er parcial
+            <br>
+            <input type="number" class="problema-input" id="examen" placeholder="Ingresa la calificacion">Examen
+            <br>
+            <input type="number" class="problema-input" id="Tfinal" placeholder="Ingresa la calificacion">Trabajo final
+            <br>
+            <button type="button" class="problema-button"
+             style="margin-top: 1rem;" onclick="p4()">Calificacion final</button>
+            <pre class="problema-output" id="p4">Esperando datos</pre>
+        </div>
+        <br>
+        <br>
+         <!--Problema 5-->
+         <div class="problema-container">
+            <h2>Problema 5</h2>
+            <h3>Un maestro desea saber que porcentaje de hombres y que 
+                porcentaje de mujeres hay en su grupo de estudiantes
+            </h3>
+            <input type="number" class="problema-input" id="Nhombres">Ingrese el numero de hombres
+            <br>
+            <input type="number" class="problema-input" id="Nmujeres">Ingrese el numero de mujeres
+            <br>
+            <button type="button" class="problema-button"
+             style="margin-top: 1rem;" onclick="p5()">Calcular porcentaje</button>
+            <pre class="problema-output" id="p5">Esperando datos</pre>
+        </div>
+        <br>
+        <br>
+         <!--Problema 6-->
+         <div class="problema-container">
+            <h2>Problema 6</h2>
+            <h3>Realizar un algoritmo que calcule la edad de una persona</h3>
+            <br>
+            <input type="number" class="problema-input" id="Dia">Ingrese su dia de nacimiento
+            <br>
+            <br>
+            <br>
+            
+            <label>Selecciona tu mes de nacimiento</label>
+            <select class="problema-input" id="Mes">Selecciona tu mes de nacimiento
+                <option id="T1">Enero</option>
+                <option id="Te">Febrero</option>
+                <option id="T1">Marzo</option>
+                <option id="T2">Abril</option>
+                <option id="T1">Mayo</option>
+                <option id="T2">Junio</option>
+                <option id="T1">Julio</option>
+                <option id="T1">Agosto</option>
+                <option id="T2">Septiembre</option>
+                <option id="T1">Octubre</option>
+                <option id="T2">Noviembre</option>
+                <option id="T1">Diciembre</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <input type="number" class="problema-input" id="Año">Ingresa tu año de nacimiento
+            <br>
+            <button type="button" class="problema-button"
+             style="margin-top: 1rem;" onclick="p6()">Calcular edad</button>
+            <pre class="problema-output" id="p6">Esperando datos</pre>
+        </div>
+    </div>
+    <script src="js/logicajs.js" ></script>
+    <footer><a href="../index.html">Regresar al inicio</a></footer>
+</body>
+</html>
