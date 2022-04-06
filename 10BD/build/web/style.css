@@ -1,0 +1,45 @@
+body{
+    
+}
+.nose{
+    width: 900px;
+    margin: auto;
+    border: dotted;
+}
+h1 {
+    font-family:Arial black; 
+    font-size:30px;
+    text-align:center;
+    color: crimson;
+}
+label{
+    font-family:Arial black; 
+    font-size:25px;
+    text-align:center;
+    color: crimson;
+}
+form{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    border:solid;
+    color: chartreuse;
+}
+input{
+    width: 200px;
+}
+a{
+   font-family:Arial black; 
+   font-size:25px;
+   text-align:center;
+   color: chartreuse;
+}
+table{
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    border:solid;
+    color: chartreuse;
+}
